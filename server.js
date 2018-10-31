@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 5000
 let users = ['oscar', 'juan', 'marcos', 'julieta'];
 let books = [
     {titulo: 'El señor de los anillos', autor: 'J.R.R. Tolkien'},
-    {titulo: "Cancion de hielo y fuego", autor: 'George RR Martin'}
+    {titulo: "Cancion de hielo y fuego", autor: 'George RR Martin'},
+    {titulo: "hola mundo", autor: 'hola mundo'}
 ];
 
 app.use(bodyParser.json());
