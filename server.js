@@ -62,6 +62,12 @@ app.get('/', (req, res) => {
 
 // URL para listar todos los usuarios
 // http://127.0.0.1:5000/users
+app.get('/worldcup', (req, res) => {
+    res.send(futbol)
+})
+
+// URL para listar todos los usuarios
+// http://127.0.0.1:5000/users
 app.get('/users', (req, res) => {
     res.send(users)
 })
